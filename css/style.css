@@ -12,6 +12,7 @@ p {
 	border: 1px solid black;
 	width: 80%;
 	margin: 0 auto;
+	background-color: #251;
 }
 
 #header {
@@ -47,6 +48,7 @@ nav {
 #mainContent {
 	margin-top: 190px;
 	border: 1px dotted red;
+	background-color: #777;
 }
 
 .content {
@@ -54,10 +56,47 @@ nav {
 	border: 1px solid blue;
 	height: 500px;
 	padding: 20px;
+	z-index: -10;
 }
 
 .content h1 {
 	text-align: center;
+}
+
+#ComposerBG {
+	background-image: url(../images/composition-top40.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*opacity: 0.4;
+    filter: alpha(opacity=40);
+    display: block;
+    z-index: 5;
+    position: relative;*/
+}
+
+#Composer {
+    opacity: 0.99;
+    color: black;
+    text-shadow: 0px 0px 2px #855, 0px 0px 5px #977;
+    /*position: absolute;*/
+}
+
+#MusicTuitionBG {
+	background-image: url(../images/TptFHPnMix40.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*opacity: 0.4;
+    filter: alpha(opacity=40);
+    display: block;
+    z-index: 5;
+    position: relative;*/
+}
+
+#MusicTuition {
+    opacity: 0.99;
+    color: black;
+    text-shadow: 0px 0px 2px #855, 0px 0px 5px #977;
+    /*position: absolute;*/
 }
 
 footer {
